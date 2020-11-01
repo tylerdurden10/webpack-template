@@ -18,6 +18,6 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: { 'no-console': 'off' },
+  rules: { 'no-console': 'off', 'arrow-parens': 'off' },
   ignorePatterns: ['webpack/**/*.js', 'build/**/*.js', 'dist/**/*.js'],
 };
